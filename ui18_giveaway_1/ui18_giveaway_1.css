@@ -13,7 +13,8 @@ body {
   clear: both; }
 
 .main-container {
-  width: 100%; }
+  width: 100%;
+  background-color: white; }
 
 header {
   background-image: url(images/blurry-bg-cropped.jpg);
@@ -35,10 +36,40 @@ header {
 .content {
   margin: 1%; }
   .content .selling-points {
-    display: inline-block;
-    width: 60%; }
+    float: left;
+    width: 58%; }
   .content .sign-up {
     background-color: #f47b53;
+    float: right;
+    width: 35%; }
+    .content .sign-up h2 {
+      padding: 0 .25em; }
+
+.experts {
+  width: 100%; }
+  .experts h2 {
+    text-align: center; }
+  .experts ul.experts-list li {
+    float: left;
     display: inline-block;
-    width: 30%;
-    margin-left: 65%; }
+    margin: 1%;
+    width: 23%;
+    list-style: none; }
+    .experts ul.experts-list li img {
+      width: 100%; }
+
+@media screen and (max-width: 720px) {
+  .content .selling-points {
+    float: none;
+    width: inherit; }
+  .content .sign-up {
+    float: none;
+    width: inherit; } }
+@media screen and (max-width: 900px) {
+  .experts ul.experts-list li {
+    width: 46%; } }
+@media screen and (max-width: 600px) {
+  .experts ul.experts-list li {
+    float: left;
+    margin: 1% auto;
+    width: 92%; } }
