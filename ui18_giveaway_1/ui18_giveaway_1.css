@@ -49,14 +49,30 @@ header {
   width: 100%; }
   .experts h2 {
     text-align: center; }
-  .experts ul.experts-list li {
+  .experts ul.experts-list {
+    padding: 0; }
+    .experts ul.experts-list li {
+      float: left;
+      display: inline-block;
+      margin: 1%;
+      width: 23%;
+      list-style: none; }
+      .experts ul.experts-list li img {
+        width: 100%; }
+
+.keynote {
+  background-color: #d5e7e5;
+  width: 100%; }
+  .keynote img {
     float: left;
-    display: inline-block;
-    margin: 1%;
-    width: 23%;
-    list-style: none; }
-    .experts ul.experts-list li img {
-      width: 100%; }
+    margin: 1%; }
+  .keynote .keynote-headers {
+    float: left;
+    margin: 1%; }
+    .keynote .keynote-headers h4 {
+      margin: 0; }
+    .keynote .keynote-headers h5 {
+      margin: 10% 0; }
 
 @media screen and (max-width: 720px) {
   .content .selling-points {
