@@ -1,5 +1,5 @@
 html {
-  background-color: #F5F6EF;
+  background-color: #eff6f5;
   margin: 0; }
 
 body {
@@ -34,6 +34,7 @@ header {
     top: 1em; }
 
 .content {
+  width: 98%;
   margin: 1%; }
   .content .selling-points {
     float: left;
@@ -50,6 +51,7 @@ header {
   .experts h2 {
     text-align: center; }
   .experts ul.experts-list {
+    margin: 0 auto;
     padding: 0; }
     .experts ul.experts-list li {
       float: left;
@@ -83,9 +85,8 @@ header {
     width: inherit; } }
 @media screen and (max-width: 900px) {
   .experts ul.experts-list li {
-    width: 46%; } }
-@media screen and (max-width: 600px) {
+    width: 48%; } }
+@media screen and (max-width: 480px) {
   .experts ul.experts-list li {
-    float: left;
-    margin: 1% auto;
-    width: 92%; } }
+    float: none;
+    width: 98%; } }
