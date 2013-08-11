@@ -34,15 +34,16 @@ header {
     top: 1em; }
 
 .content {
-  width: 98%;
-  margin: 1%; }
+  width: 100%; }
   .content .selling-points {
     float: left;
-    width: 58%; }
+    width: 53%;
+    margin: 3%; }
   .content .sign-up {
     background-color: #f47b53;
     float: right;
-    width: 35%; }
+    width: 35%;
+    margin: 3%; }
     .content .sign-up h2 {
       padding: 0 .25em; }
 
@@ -51,13 +52,14 @@ header {
   .experts h2 {
     text-align: center; }
   .experts ul.experts-list {
-    margin: 0 auto;
+    margin: 2%;
     padding: 0; }
     .experts ul.experts-list li {
       float: left;
       display: inline-block;
       margin: 1%;
       width: 23%;
+      height: 25em;
       list-style: none; }
       .experts ul.experts-list li img {
         width: 100%; }
@@ -67,14 +69,30 @@ header {
   width: 100%; }
   .keynote img {
     float: left;
-    margin: 1%; }
+    margin: 2% 3%; }
   .keynote .keynote-headers {
     float: left;
-    margin: 1%; }
+    margin: 2%; }
     .keynote .keynote-headers h4 {
       margin: 0; }
     .keynote .keynote-headers h5 {
       margin: 10% 0; }
+
+footer {
+  width: 94%;
+  margin: 3%;
+  padding: 0 0 3% 0; }
+  footer hr {
+    border-bottom: 1px solid #e4f1ef; }
+  footer p {
+    color: #00332c; }
+  footer .footer-logo img {
+    float: left;
+    width: 47%; }
+  footer .contact {
+    float: right;
+    width: 37%;
+    margin-right: 10%; }
 
 @media screen and (max-width: 720px) {
   .content .selling-points {
@@ -82,7 +100,15 @@ header {
     width: inherit; }
   .content .sign-up {
     float: none;
-    width: inherit; } }
+    width: inherit; }
+
+  footer .footer-logo img {
+    float: none;
+    width: inherit; }
+  footer .contact {
+    float: none;
+    width: inherit;
+    margin: 0; } }
 @media screen and (max-width: 900px) {
   .experts ul.experts-list li {
     width: 48%; } }

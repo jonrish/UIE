@@ -41,17 +41,18 @@ header {
 }
 
 .content {
-	width: 98%;
-	margin: 1%;
+	width: 100%;
 	.selling-points {
 		float: left;
-		width: 58%;
+		width: 53%;
+		margin: 3%;
 	}
 	.sign-up {
 		// background color not quite right
 		background-color: #f47b53;
 		float: right;
 		width: 35%;
+		margin: 3%;
 		h2 {
 			padding: 0 .25em;
 		}
@@ -64,13 +65,14 @@ header {
 		text-align: center;
 	}
 	ul.experts-list {
-		margin: 0 auto;
+		margin: 2%;
 		padding: 0;
 		li {
 			float: left;
 			display: inline-block;
 			margin: 1%;
 			width: 23%;
+			height: 25em;
 			list-style: none;
 			img {
 				width: 100%;
@@ -84,17 +86,40 @@ header {
 	width: 100%;
 	img {
 		float: left;
-		margin: 1%;
+		margin: 2% 3%;
 	}
 	.keynote-headers {
 		float: left;
-		margin: 1%;
+		margin: 2%;
 		h4 {
 			margin: 0;
 		}
 		h5 {
 			margin: 10% 0;
 		}
+	}
+}
+
+
+
+footer {
+	width: 94%;
+	margin: 3%;
+	padding: 0 0 3% 0;
+	hr {
+  	border-bottom: 1px solid #e4f1ef;
+	}
+	p {
+		color: #00332c;
+	}
+	.footer-logo img {
+		float: left;
+		width: 47%;
+	}
+	.contact {
+		float: right;
+		width: 37%;
+		margin-right: 10%;
 	}
 }
 
@@ -113,6 +138,17 @@ header {
 		.sign-up {
 			float: none;
 			width: inherit;	
+		}
+	}
+	footer {
+		.footer-logo img {
+			float: none;
+			width: inherit;
+		}
+		.contact {
+			float: none;
+			width: inherit;
+			margin: 0;
 		}
 	}
 }
