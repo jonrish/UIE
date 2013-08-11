@@ -4,8 +4,8 @@ html {
 }
 
 body {
-	min-width: 480px;
-	max-width: 1200px;
+	min-width: 29em;
+	max-width: 74em;
 	margin: 0 auto;
 }
 
@@ -44,14 +44,14 @@ header {
 	width: 100%;
 	.selling-points {
 		float: left;
-		width: 53%;
+		width: 55%;
 		margin: 3%;
 	}
 	.sign-up {
 		// background color not quite right
 		background-color: #f47b53;
 		float: right;
-		width: 35%;
+		width: 33%;
 		margin: 3%;
 		h2 {
 			padding: 0 .25em;
@@ -72,7 +72,7 @@ header {
 			display: inline-block;
 			margin: 1%;
 			width: 23%;
-			height: 25em;
+			height: 29em;
 			list-style: none;
 			img {
 				width: 100%;
@@ -103,23 +103,27 @@ header {
 
 
 footer {
-	width: 94%;
-	margin: 3%;
+	width: 100%;
+	// width: 94%;
+	// margin: 3%;
 	padding: 0 0 3% 0;
 	hr {
   	border-bottom: 1px solid #e4f1ef;
+  	width: 94%;
+  	margin: 3%;
 	}
 	p {
 		color: #00332c;
 	}
 	.footer-logo img {
 		float: left;
-		width: 47%;
+		width: 44%;
+		margin: 3%;
 	}
 	.contact {
 		float: right;
-		width: 37%;
-		margin-right: 10%;
+		width: 44%;
+		margin: 3%;
 	}
 }
 
@@ -129,31 +133,32 @@ footer {
 
 // media queries
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 44em) {
 	.content {
 		.selling-points {
 			float: none;
-			width: inherit;
+			width: 94%;
 		}
 		.sign-up {
 			float: none;
-			width: inherit;	
+			width: 94%;
 		}
 	}
+
 	footer {
 		.footer-logo img {
 			float: none;
-			width: inherit;
+			width: 94%;
 		}
 		.contact {
 			float: none;
-			width: inherit;
-			margin: 0;
+			width: 94%;
+			margin: 3%;
 		}
 	}
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 56em) {
 	.experts {
 		ul.experts-list li {
 			width: 48%;
@@ -161,7 +166,7 @@ footer {
 	}
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 30em) {
 	.experts {
 		ul.experts-list li {
 			float: none;
