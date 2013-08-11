@@ -7,6 +7,9 @@ body {
 	min-width: 29em;
 	max-width: 74em;
 	margin: 0 auto;
+	font-family: adelle, Georgia, Cambria, 'Times New Roman', Times, serif;
+	color: #00332c;
+	line-height: 1.33em;
 }
 
 .btcf:after {
@@ -18,6 +21,10 @@ body {
 .main-container {
 	width: 100%;
 	background-color: white;
+}
+
+a {
+	text-decoration: none;
 }
 
 header {
@@ -44,17 +51,56 @@ header {
 	width: 100%;
 	.selling-points {
 		float: left;
-		width: 55%;
+		width: 51%;
 		margin: 3%;
 	}
 	.sign-up {
 		// background color not quite right
-		background-color: #f47b53;
+		background-color: #d5e7e5;
 		float: right;
-		width: 33%;
+		width: 37%;
 		margin: 3%;
 		h2 {
-			padding: 0 .25em;
+			// font-size: 1.5em;
+			font-weight: 600;
+			text-align: center;
+			padding: .5em .2em;
+		}
+		form {
+			margin: 4%;
+			width: 92%;
+			label {
+				font-size: 1.1em;
+			}
+			input#email {
+				padding: 0 .5em;
+				width: 55%;
+				border: 2px solid #00332c;
+				height: 1.8em;
+			}
+			.checkboxes {
+				font-size: .75em;
+			}
+			#goods-button {
+				text-align: center;
+				color: white;
+				background-color: #f47b53;
+				border: 1px solid #f15623;
+				border-radius: 3px;
+				box-shadow: inset 0 1px 0 #f7a083, inset 0 0 8px #f69879;
+				text-shadow: 0 -1px 0 #d33f0e;
+				font-size: 1em;
+				height: 2em;
+				margin: 0 22%;
+				width: 56%;
+				cursor: pointer;
+			}
+		}
+		.promise {
+			margin: 4%;
+			width: 92%;
+			font-size: .75em;
+			padding: 0 0 1em 0;
 		}
 	}	
 }
@@ -76,6 +122,13 @@ header {
 			list-style: none;
 			img {
 				width: 100%;
+			}
+			h4 {
+				font-style: italic;
+				font-weight: 200;
+			}
+			h3 {
+				color: #f47b53;
 			}
 		}
 	}
@@ -116,9 +169,9 @@ footer {
   	width: 94%;
   	margin: 3%;
 	}
-	p {
-		color: #00332c;
-	}
+	// p {
+	// 	color: #00332c;
+	// }
 	.footer-logo img {
 		float: left;
 		width: 44%;
@@ -129,6 +182,14 @@ footer {
 		width: 44%;
 		margin: 3%;
 	}
+	a {
+		color: #f47b53;
+	}
+}
+
+.highlight-link {
+	font-weight: 500;
+	color: #f15623;
 }
 
 

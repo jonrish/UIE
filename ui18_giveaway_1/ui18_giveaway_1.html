@@ -3,12 +3,12 @@
 <head>
 	<title>UI18: User Interface 18, The UX & Design Conference</title>
 	<link rel="stylesheet" type="text/css" href="ui18_giveaway_1.css">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="jquery-1.10.2.js" type="text/javascript"></script>
 </head>
 <body>
 <div class='main-container'>
 	<header>
-<!-- todo: make log link to something -->
+<!-- todo: make logo link to something -->
 		<a href="#"><img class='logo-small' src="images/ui18-logo-small.png" alt='Logo'></a>
 		<h1>Critical skills you need to enhance your UX designs</h1>
 	</header>
@@ -34,7 +34,7 @@
 		<div class='sign-up'>
 			<h2>Get Free Access to the Recordings</h2>
 			<form class="email-info">
-<!-- questions fo divs about email validation & capture -->
+<!-- questions for divs about email validation & capture -->
 				<!-- <p class="warning hidden" id="email-warning">
 					Your email address is invalid. Please try again.
 				</p> -->
@@ -42,16 +42,16 @@
 					<label for="email">Email Address:</label>
 					<input type="email" name="email" id="email" />
 				</p>
-				<p>
+				<p class='checkboxes'>
 					<input type="checkbox" name="tips" />
 					<label for="tips">I want to subscribe to <strong>UIETips</strong> to get UIE's UX research.</label>
 				</p>
-				<p>
+				<p class='checkboxes'>
 					<input type="checkbox" name="other" />
 					<label for="other">Tell me more about the 2014 User Interface Conference</label>
 				</p>
 				<p>
-					<input type="button" value="GET THE GOODS" />
+					<input type="button" value="GET THE GOODS" id="goods-button" />
 				</p>					
 			</form>
 			<!-- <div class="email-capture"></div> -->
