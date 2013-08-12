@@ -1,12 +1,10 @@
 html {
 	margin: 0;
-	background-color: #0c45d6;
+	background-color: #D4DCF7;
 }
 
 body {
 	margin: 0 auto;
-	max-width: 85em;
-	min-width: 20em;
 }
 
 .btcf:after {
@@ -16,33 +14,42 @@ body {
  }
 
 header {
-	max-width: 85em;
-	min-width: 20em;
+	margin: 0;
+	padding: 0;
 	width: 100%;
-	background-color: #0c45d6;
+	background-image: url('images/dblue054.gif');
 	position: fixed;
 	top: 0;
 	height: 3.5em;
 	z-index: 99;
-	img {
-		position: absolute;
-		margin-left: 8%;
-		height: 3.5em;
-	}
-	h1 {
-		text-align: center;
-		color: white;
-		padding: .3em 0 0 0;
-		margin: 0;
+	box-shadow: 0 3px 3px #139AD8;
+	.header-content {
+		max-width: 85em;
+		min-width: 20em;
+		img {
+			position: absolute;
+			margin-left: 8%;
+			height: 3.5em;
+		}
+		h1 {
+			text-align: center;
+			color: white;
+			padding: .3em 0 0 0;
+			margin: 0;
+		}
 	}
 }
 
 .main-container {
+	margin: 0 auto;
+	max-width: 75em;
+	min-width: 20em;
 	width: 100%;
 	background-color: white;
 	position: relative;
 	top: 3.5em;
 	padding-top: 1em;
+	color: #0c45d6;
 }
 
 .content {
@@ -50,26 +57,114 @@ header {
 	margin: 0 auto;
 }
 
-.sell-headers {
-	h2 {
-		text-align: center;
+.selling-points {
+	.sell-headers {
+		width: 48%;
+		float: left;
+	}
+	ul {
+		width: 45%;
+		float: right;
+		list-style: disc;
+		li {
+			font-size: 1.25em;
+			line-height: 1.4em;
+		}
+	}
+}
+
+.experts {
+	width: 65%;
+	float: left;
+	h1 {
 		color: #0c45d6;
-		margin-top: 0;
+		text-align: center;
+	}
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		li {
+			height: 11em;
+			position: relative;
+			margin-bottom: 1em;
+			h3, h2 {
+				float: right;
+			}
+			.expert-pic {
+				width: 48%;
+				float: left;
+				height: inherit;
+				position: relative;
+				button {
+					margin: 0;
+					padding: 0;
+					width: 40%;
+					position: absolute;
+					bottom: 0;
+				}
+			}
+			.stephen {
+				background-image: url('images/experts/stephen.jpg');
+				background-size: cover;
+			}
+			.kim {
+				background-image: url('images/experts/kim.jpg');
+				background-size: cover;
+			}
+			.scott {
+				background-image: url('images/experts/scott.jpg');
+				background-size: cover;
+			}
+			.kevin {
+				background-image: url('images/experts/kevin.jpg');
+				background-size: cover;
+			}
+			.adam-aaron {
+				background-image: url('images/experts/adam-aaron.jpg');
+				background-size: cover;
+			}
+			.dan {
+				background-image: url('images/experts/dan.jpg');
+				background-size: cover;
+			}
+			.jeff {
+				background-image: url('images/experts/jeff.jpg');
+				background-size: cover;
+			}
+			.christine {
+				background-image: url('images/experts/christine.jpg');
+				background-size: cover;
+			}
+			h3, h2 {
+				width: 50%;
+			}
+			h3 {
+				font-style: italic;
+				margin: 0;
+			}
+			p {
+				display: none;
+				position: absolute;
+				width: 80%;
+				top: 1.75em;
+				left: .5em;
+				background-color: #D4DCF7;
+				opacity: .85;
+				border-radius: .5em;
+				padding: .25em;
+
+			}
+		}
 	}
 }
 
 .sign-up {
-	float: left;
-	width: 48%;
-	background-color: #AABBF7;
+	float: right;
+	width: 33%;
+	background-color: #D4DCF7;
 	border-radius: 3px;
 }
-
-.selling-points {
-	float: right;
-	width: 48%;
-}
-
 
 
 

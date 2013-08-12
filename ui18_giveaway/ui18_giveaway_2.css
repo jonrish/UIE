@@ -1,11 +1,9 @@
 html {
   margin: 0;
-  background-color: #0c45d6; }
+  background-color: #D4DCF7; }
 
 body {
-  margin: 0 auto;
-  max-width: 85em;
-  min-width: 20em; }
+  margin: 0 auto; }
 
 .btcf:after {
   content: "";
@@ -13,46 +11,123 @@ body {
   clear: both; }
 
 header {
-  max-width: 85em;
-  min-width: 20em;
+  margin: 0;
+  padding: 0;
   width: 100%;
-  background-color: #0c45d6;
+  background-image: url("images/dblue054.gif");
   position: fixed;
   top: 0;
   height: 3.5em;
-  z-index: 99; }
-  header img {
-    position: absolute;
-    margin-left: 8%;
-    height: 3.5em; }
-  header h1 {
-    text-align: center;
-    color: white;
-    padding: .3em 0 0 0;
-    margin: 0; }
+  z-index: 99;
+  box-shadow: 0 3px 3px #139AD8; }
+  header .header-content {
+    max-width: 85em;
+    min-width: 20em; }
+    header .header-content img {
+      position: absolute;
+      margin-left: 8%;
+      height: 3.5em; }
+    header .header-content h1 {
+      text-align: center;
+      color: white;
+      padding: .3em 0 0 0;
+      margin: 0; }
 
 .main-container {
+  margin: 0 auto;
+  max-width: 75em;
+  min-width: 20em;
   width: 100%;
   background-color: white;
   position: relative;
   top: 3.5em;
-  padding-top: 1em; }
+  padding-top: 1em;
+  color: #0c45d6; }
 
 .content {
   width: 90%;
   margin: 0 auto; }
 
-.sell-headers h2 {
-  text-align: center;
-  color: #0c45d6;
-  margin-top: 0; }
+.selling-points .sell-headers {
+  width: 48%;
+  float: left; }
+.selling-points ul {
+  width: 45%;
+  float: right;
+  list-style: disc; }
+  .selling-points ul li {
+    font-size: 1.25em;
+    line-height: 1.4em; }
+
+.experts {
+  width: 65%;
+  float: left; }
+  .experts h1 {
+    color: #0c45d6;
+    text-align: center; }
+  .experts ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    .experts ul li {
+      height: 11em;
+      position: relative;
+      margin-bottom: 1em; }
+      .experts ul li h3, .experts ul li h2 {
+        float: right; }
+      .experts ul li .expert-pic {
+        width: 48%;
+        float: left;
+        height: inherit;
+        position: relative; }
+        .experts ul li .expert-pic button {
+          margin: 0;
+          padding: 0;
+          width: 40%;
+          position: absolute;
+          bottom: 0; }
+      .experts ul li .stephen {
+        background-image: url("images/experts/stephen.jpg");
+        background-size: cover; }
+      .experts ul li .kim {
+        background-image: url("images/experts/kim.jpg");
+        background-size: cover; }
+      .experts ul li .scott {
+        background-image: url("images/experts/scott.jpg");
+        background-size: cover; }
+      .experts ul li .kevin {
+        background-image: url("images/experts/kevin.jpg");
+        background-size: cover; }
+      .experts ul li .adam-aaron {
+        background-image: url("images/experts/adam-aaron.jpg");
+        background-size: cover; }
+      .experts ul li .dan {
+        background-image: url("images/experts/dan.jpg");
+        background-size: cover; }
+      .experts ul li .jeff {
+        background-image: url("images/experts/jeff.jpg");
+        background-size: cover; }
+      .experts ul li .christine {
+        background-image: url("images/experts/christine.jpg");
+        background-size: cover; }
+      .experts ul li h3, .experts ul li h2 {
+        width: 50%; }
+      .experts ul li h3 {
+        font-style: italic;
+        margin: 0; }
+      .experts ul li p {
+        display: none;
+        position: absolute;
+        width: 80%;
+        top: 1.75em;
+        left: .5em;
+        background-color: #D4DCF7;
+        opacity: .85;
+        border-radius: .5em;
+        padding: .25em; }
 
 .sign-up {
-  float: left;
-  width: 48%;
-  background-color: #AABBF7;
-  border-radius: 3px; }
-
-.selling-points {
   float: right;
-  width: 48%; }
+  width: 33%;
+  background-color: #D4DCF7;
+  border-radius: 3px; }
