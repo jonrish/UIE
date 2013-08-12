@@ -70,61 +70,35 @@ header {
     margin: 0;
     padding: 0; }
     .experts ul li {
-      height: 11em;
+      height: 12em;
       position: relative;
       margin-bottom: 1em; }
       .experts ul li h3, .experts ul li h2 {
-        float: right; }
-      .experts ul li .expert-pic {
-        width: 48%;
-        float: left;
-        height: inherit;
-        position: relative; }
-        .experts ul li .expert-pic button {
-          margin: 0;
-          padding: 0;
-          width: 40%;
-          position: absolute;
-          bottom: 0; }
-      .experts ul li .stephen {
-        background-image: url("images/experts/stephen.jpg");
-        background-size: cover; }
-      .experts ul li .kim {
-        background-image: url("images/experts/kim.jpg");
-        background-size: cover; }
-      .experts ul li .scott {
-        background-image: url("images/experts/scott.jpg");
-        background-size: cover; }
-      .experts ul li .kevin {
-        background-image: url("images/experts/kevin.jpg");
-        background-size: cover; }
-      .experts ul li .adam-aaron {
-        background-image: url("images/experts/adam-aaron.jpg");
-        background-size: cover; }
-      .experts ul li .dan {
-        background-image: url("images/experts/dan.jpg");
-        background-size: cover; }
-      .experts ul li .jeff {
-        background-image: url("images/experts/jeff.jpg");
-        background-size: cover; }
-      .experts ul li .christine {
-        background-image: url("images/experts/christine.jpg");
-        background-size: cover; }
-      .experts ul li h3, .experts ul li h2 {
+        float: right;
         width: 50%; }
+      .experts ul li h2 {
+        margin-bottom: 0; }
+      .experts ul li img {
+        width: 48%;
+        float: left; }
       .experts ul li h3 {
         font-style: italic;
         margin: 0; }
+      .experts ul li button {
+        margin-left: 1em; }
       .experts ul li p {
-        display: none;
         position: absolute;
-        width: 80%;
-        top: 1.75em;
-        left: .5em;
+        width: 45%;
+        top: 0;
+        left: .25em;
+        margin: 0;
         background-color: #D4DCF7;
         opacity: .85;
         border-radius: .5em;
         padding: .25em; }
+
+.hidden {
+  display: none; }
 
 .sign-up {
   float: right;

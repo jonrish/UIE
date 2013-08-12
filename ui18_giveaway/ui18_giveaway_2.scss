@@ -85,78 +85,44 @@ header {
 		margin: 0;
 		padding: 0;
 		li {
-			height: 11em;
+			height: 12em;
 			position: relative;
 			margin-bottom: 1em;
 			h3, h2 {
 				float: right;
+				width: 50%;
 			}
-			.expert-pic {
+			h2 {
+				margin-bottom: 0;
+			}
+			img {
 				width: 48%;
 				float: left;
-				height: inherit;
-				position: relative;
-				button {
-					margin: 0;
-					padding: 0;
-					width: 40%;
-					position: absolute;
-					bottom: 0;
-				}
-			}
-			.stephen {
-				background-image: url('images/experts/stephen.jpg');
-				background-size: cover;
-			}
-			.kim {
-				background-image: url('images/experts/kim.jpg');
-				background-size: cover;
-			}
-			.scott {
-				background-image: url('images/experts/scott.jpg');
-				background-size: cover;
-			}
-			.kevin {
-				background-image: url('images/experts/kevin.jpg');
-				background-size: cover;
-			}
-			.adam-aaron {
-				background-image: url('images/experts/adam-aaron.jpg');
-				background-size: cover;
-			}
-			.dan {
-				background-image: url('images/experts/dan.jpg');
-				background-size: cover;
-			}
-			.jeff {
-				background-image: url('images/experts/jeff.jpg');
-				background-size: cover;
-			}
-			.christine {
-				background-image: url('images/experts/christine.jpg');
-				background-size: cover;
-			}
-			h3, h2 {
-				width: 50%;
 			}
 			h3 {
 				font-style: italic;
 				margin: 0;
 			}
+			button {
+				margin-left: 1em;
+			}
 			p {
-				display: none;
 				position: absolute;
-				width: 80%;
-				top: 1.75em;
-				left: .5em;
+				width: 45%;
+				top: 0;
+				left: .25em;
+				margin: 0;
 				background-color: #D4DCF7;
 				opacity: .85;
 				border-radius: .5em;
 				padding: .25em;
-
 			}
 		}
 	}
+}
+
+.hidden {
+	display: none;
 }
 
 .sign-up {
