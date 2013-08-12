@@ -24,7 +24,7 @@ header {
   header img {
     position: absolute;
     margin-left: 8%;
-    height: inherit; }
+    height: 3.5em; }
   header h1 {
     text-align: center;
     color: white;
@@ -35,6 +35,24 @@ header {
   width: 100%;
   background-color: white;
   position: relative;
-  top: 3.5em; }
-  .main-container p {
-    margin-top: 0; }
+  top: 3.5em;
+  padding-top: 1em; }
+
+.content {
+  width: 90%;
+  margin: 0 auto; }
+
+.sell-headers h2 {
+  text-align: center;
+  color: #0c45d6;
+  margin-top: 0; }
+
+.sign-up {
+  float: left;
+  width: 48%;
+  background-color: #AABBF7;
+  border-radius: 3px; }
+
+.selling-points {
+  float: right;
+  width: 48%; }
