@@ -210,9 +210,13 @@ footer {
 @media screen and (max-width: 784px) {
 	.selling-points {
 		width: 100%;
-		.sell-headers, ul {
+		.sell-headers {
 			float: none;
 			width: 100%;
+		}
+		ul {
+			float: none;
+			width: 90%;
 		}
 	}
 	.sign-up {
@@ -220,24 +224,35 @@ footer {
 		width: 100%;
 		margin: 0;
 	}
+	.experts {
+		float: none;
+		width: 100%;
+	}
+	.keynote {
+		float: none;
+		width: 70%;
+		margin: 0 auto;
+		display: block;
+		img {
+			height: 8em;
+			width: auto;
+		}
+		h4, h5 {
+			float: left;
+			margin-left: 1em;
+		}
+	}
 }
 
-// .sign-up {
-// 	float: right;
-// 	width: 33%;
-// 	margin-top: 6em;
-// 	background-color: #D4DCF7;
-// 	border-radius: .5em;
-// 	border: 1px solid #139AD8;
-// 	box-shadow: 0px 0px 0.5em #139AD8;
-// }
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 664px) {
+	footer {
+		.footer-logo img {
+			float: none;
+			width: 94%;
+		}
+		.contact {
+			float: none;
+			width: 94%;
+		}
+	}	
+}

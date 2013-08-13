@@ -166,11 +166,37 @@ footer {
 @media screen and (max-width: 784px) {
   .selling-points {
     width: 100%; }
-    .selling-points .sell-headers, .selling-points ul {
+    .selling-points .sell-headers {
       float: none;
       width: 100%; }
+    .selling-points ul {
+      float: none;
+      width: 90%; }
 
   .sign-up {
     float: none;
     width: 100%;
-    margin: 0; } }
+    margin: 0; }
+
+  .experts {
+    float: none;
+    width: 100%; }
+
+  .keynote {
+    float: none;
+    width: 70%;
+    margin: 0 auto;
+    display: block; }
+    .keynote img {
+      height: 8em;
+      width: auto; }
+    .keynote h4, .keynote h5 {
+      float: left;
+      margin-left: 1em; } }
+@media screen and (max-width: 664px) {
+  footer .footer-logo img {
+    float: none;
+    width: 94%; }
+  footer .contact {
+    float: none;
+    width: 94%; } }

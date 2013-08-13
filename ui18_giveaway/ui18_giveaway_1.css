@@ -163,8 +163,7 @@ footer {
     width: 94%; }
   footer .contact {
     float: none;
-    width: 94%;
-    margin: 3%; } }
+    width: 94%; } }
 @media screen and (max-width: 56em) {
   .experts ul.experts-list li {
     width: 48%; } }
