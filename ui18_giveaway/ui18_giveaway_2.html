@@ -4,6 +4,7 @@
 	<title>UI18: User Interface 18, The UX & Design Conference</title>
 	<link rel="stylesheet" type="text/css" href="ui18_giveaway_2.css">
 	<script src="js/jquery-1.10.2.js" type="text/javascript"></script>
+	<script src="js/jquery.validate.js" type="text/javascript"></script>
 	<meta name="viewport" content="width=device-width" />
 </head>
 <body>
@@ -14,7 +15,7 @@
 		</div>
 	</header>
 	<div class='main-container btcf'>
-		<div class='content'>
+		<div class='content btcf'>
 			<div class='selling-points btcf'>
 				<div class='sell-headers'>
 					<h1>UI18 OnDemand</h1>
@@ -25,6 +26,27 @@
 					<li>13 hours of video and audio</li>
 					<li>All the session materials and presentations</li>
 				</ul>
+			</div>
+			<div class='sign-up btcf'>
+				<h2>Watch for Free</h2>
+				<form class="email-info">
+					<p>
+						<label for="email">Email Address:</label>
+						<input type="email" name="email" id="email" />
+					</p>
+					<p class='checkboxes'>
+						<input type="checkbox" name="tips" id="tips"/>
+						<label for="tips">I want to subscribe to <strong>UIETips</strong> to get UIE's UX research.</label>
+					</p>
+					<p class='checkboxes'>
+						<input type="checkbox" name="other" id="other" />
+						<label for="other">Tell me more about the 2014 User Interface Conference</label>
+					</p>
+					<p>
+						<input type="submit" value="GET THE GOODS" id="goods-button" />
+					</p>
+				</form>
+				<p class="promise">We promise to never sell or share your email. We will send you an email on accessing UI18 OnDemand.</p>
 			</div>
 			<div class='experts'>
     		<h1>The UX Experts</h1>
@@ -78,52 +100,28 @@
 						<p class='hidden'>Lead enlightening tests to discover where your users are hitting roadblocks in your design. Start to pinpoint where your organization can truly innovate.</p>
 					</li>
 				</ul>
-
-
-
     	</div>
-
-
-
-
-
-
 			
-
-			<div class='sign-up'>
-				<h2>Get Free Access to the Recordings</h2>
-				<form class="email-info">
-<!-- questions for divs about email validation & capture -->
-				<!-- <p class="warning hidden" id="email-warning">
-				Your email address is invalid. Please try again.
-				</p> -->
-					<p>
-						<label for="email">Email Address:</label>
-						<input type="email" name="email" id="email" />
-					</p>
-					<p class='checkboxes'>
-						<input type="checkbox" name="tips" />
-						<label for="tips">I want to subscribe to <strong>UIETips</strong> to get UIE's UX research.</label>
-					</p>
-					<p class='checkboxes'>
-						<input type="checkbox" name="other" />
-						<label for="other">Tell me more about the 2014 User Interface Conference</label>
-					</p>
-					<p>
-						<input type="button" value="GET THE GOODS" id="goods-button" />
-					</p>
-				</form>
-<!-- <div class="email-capture"></div> -->
-				<p class="promise">We promise to never sell or share your email. We will send you an email on accessing UI18 OnDemand.</p>
-			</div>
-				
-    	
+			<div class='keynote btcf'>
+				<img src="images/experts/jared.jpg" alt="Photo of Jared Spool">
+					<div class='keynote-headers'>
+						<h4>Keynote Presentation</h4>
+						<h5>Jared Spool</h5>
+					</div>
+			</div>	
     </div>
-
-
-
-
-		
+    <footer class='btcf'>
+    	<hr>
+    	<div class='footer-logo'>	
+				<img src="images/uie.png" alt="uie">
+			</div>
+			<div class='contact'>
+				<p>Copyright &copy; 2013, User Interface Engineering. All Rights Reserved.<br />
+				510 Turnpike St., Suite 102, North Andover, MA 01845<br />
+				1.800.588.9855 (within the U.S. and Canada) or +1.978.327.5561</p>
+				<p>Questions or comments? Please send e-mail to <a href="mailto:events@uie.com">events@uie.com</a></p>
+			</div>
+    </footer>
 	</div>
 
 <script src='js/ui18_giveaway_2.js'></script>

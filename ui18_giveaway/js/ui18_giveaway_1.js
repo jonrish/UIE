@@ -2,7 +2,13 @@ $(document).ready( function() {
 	var experts = new HighlightClass($('ul.experts-list'), 'li', 'highlight-experts');
 	var link = new HighlightClass($('footer'), 'a', 'highlight-link');
 
-	$('form').validate();
+	$('form').validate({
+		rules: {
+			email: {
+				required: true
+			}
+		}
+	});
 });
 
 function HighlightClass(parent_element, target_element, target_class) {

@@ -1,14 +1,19 @@
 html {
+  min-width: 448px;
   margin: 0;
   background-color: #D4DCF7; }
 
 body {
-  margin: 0 auto; }
+  margin: 0 auto;
+  font-family: adelle, Georgia, Cambria, 'Times New Roman', Times, serif; }
 
 .btcf:after {
   content: "";
   display: table;
   clear: both; }
+
+.error {
+  color: red; }
 
 header {
   margin: 0;
@@ -21,11 +26,12 @@ header {
   z-index: 99;
   box-shadow: 0 3px 3px #139AD8; }
   header .header-content {
-    max-width: 85em;
-    min-width: 20em; }
+    margin: 0 auto;
+    max-width: 1280px;
+    min-width: 448px; }
     header .header-content img {
       position: absolute;
-      margin-left: 8%;
+      margin-left: 5%;
       height: 3.5em; }
     header .header-content h1 {
       text-align: center;
@@ -35,8 +41,8 @@ header {
 
 .main-container {
   margin: 0 auto;
-  max-width: 75em;
-  min-width: 20em;
+  max-width: 1280px;
+  min-width: 448px;
   width: 100%;
   background-color: white;
   position: relative;
@@ -58,6 +64,15 @@ header {
   .selling-points ul li {
     font-size: 1.25em;
     line-height: 1.4em; }
+
+.sign-up {
+  float: right;
+  width: 33%;
+  margin-top: 6em;
+  background-color: #D4DCF7;
+  border-radius: .5em;
+  border: 1px solid #139AD8;
+  box-shadow: 0px 0px 0.5em #139AD8; }
 
 .experts {
   width: 65%;
@@ -100,8 +115,62 @@ header {
 .hidden {
   display: none; }
 
-.sign-up {
+.keynote {
   float: right;
   width: 33%;
-  background-color: #D4DCF7;
-  border-radius: 3px; }
+  margin-top: 3em;
+  background-image: url("images/dblue054.gif");
+  border-radius: .5em;
+  border: 1px solid #139AD8;
+  box-shadow: 0px 0px 0.5em #139AD8; }
+  .keynote img {
+    float: left;
+    width: 50%; }
+  .keynote h4, .keynote h5 {
+    width: 45%;
+    float: right;
+    color: white; }
+
+footer {
+  position: relative;
+  width: 100%; }
+  footer hr {
+    border-bottom: 1px solid #e4f1ef;
+    width: 94%;
+    margin: 3%; }
+  footer .footer-logo img {
+    float: left;
+    width: 44%;
+    margin: 3%; }
+  footer .contact {
+    float: right;
+    width: 44%;
+    margin: 3%; }
+
+@media screen and (max-width: 1064px) {
+  header {
+    height: 7em; }
+    header .header-content img {
+      display: block;
+      margin: 0 auto;
+      position: relative; }
+
+  .main-container {
+    top: 7em; } }
+@media screen and (max-width: 834px) {
+  header {
+    height: 10.5em; }
+
+  .main-container {
+    top: 10.5em; } }
+@media screen and (max-width: 784px) {
+  .selling-points {
+    width: 100%; }
+    .selling-points .sell-headers, .selling-points ul {
+      float: none;
+      width: 100%; }
+
+  .sign-up {
+    float: none;
+    width: 100%;
+    margin: 0; } }
