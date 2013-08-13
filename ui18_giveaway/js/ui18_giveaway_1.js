@@ -1,7 +1,9 @@
-(function() {
+$(document).ready( function() {
 	var experts = new HighlightClass($('ul.experts-list'), 'li', 'highlight-experts');
 	var link = new HighlightClass($('footer'), 'a', 'highlight-link');
-})();
+
+	$('form').validate();
+});
 
 function HighlightClass(parent_element, target_element, target_class) {
 	$(parent_element).on('mouseenter', target_element, function() {
