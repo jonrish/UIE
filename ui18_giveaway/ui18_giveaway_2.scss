@@ -15,6 +15,10 @@ body {
   clear:both;
  }
 
+ a {
+	text-decoration: none;
+}
+
 .error {
 	color: red;
 }
@@ -205,10 +209,13 @@ header {
 		float: left;
 		width: 50%;
 	}
-	h4, h5 {
+	h3, h4 {
 		width: 45%;
 		float: right;
 		color: white;
+	}
+	h4 {
+		font-style: italic;
 	}
 }
 
@@ -288,7 +295,7 @@ footer {
 			height: 8em;
 			width: auto;
 		}
-		h4, h5 {
+		h3, h4 {
 			float: left;
 			margin-left: 1em;
 		}

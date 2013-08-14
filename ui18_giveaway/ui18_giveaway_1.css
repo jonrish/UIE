@@ -124,8 +124,9 @@ header {
     float: left;
     margin: 2%; }
     .keynote .keynote-headers h4 {
-      margin: 0; }
-    .keynote .keynote-headers h5 {
+      margin: 0;
+      font-style: italic; }
+    .keynote .keynote-headers h3 {
       margin: 10% 0; }
 
 footer {

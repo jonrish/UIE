@@ -12,6 +12,9 @@ body {
   display: table;
   clear: both; }
 
+a {
+  text-decoration: none; }
+
 .error {
   color: red; }
 
@@ -169,10 +172,12 @@ header {
   .keynote img {
     float: left;
     width: 50%; }
-  .keynote h4, .keynote h5 {
+  .keynote h3, .keynote h4 {
     width: 45%;
     float: right;
     color: white; }
+  .keynote h4 {
+    font-style: italic; }
 
 footer {
   position: relative;
@@ -233,7 +238,7 @@ footer {
     .keynote img {
       height: 8em;
       width: auto; }
-    .keynote h4, .keynote h5 {
+    .keynote h3, .keynote h4 {
       float: left;
       margin-left: 1em; } }
 @media screen and (max-width: 700px) and (orientation: landscape) {
