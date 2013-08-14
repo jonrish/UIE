@@ -139,7 +139,7 @@ header {
 	width: 65%;
 	float: left;
 	h1 {
-		color: #0c45d6;
+		color: #380202;
 		text-align: center;
 	}
 	ul {
@@ -172,6 +172,7 @@ header {
 				float: left;
 			}
 			h3 {
+				color: #380202;
 				font-style: italic;
 				margin: 0;
 			}
@@ -237,7 +238,15 @@ footer {
 		width: 44%;
 		margin: 3%;
 	}
+	a {
+		color: #380202;
+	}
 }
+
+
+
+// media queries
+
 
 @media screen and (max-width: 1080px) {
 	header {
