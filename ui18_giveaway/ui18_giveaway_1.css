@@ -3,7 +3,7 @@ html {
   margin: 0; }
 
 body {
-  min-width: 29em;
+  min-width: 14em;
   max-width: 74em;
   margin: 0 auto;
   font-family: adelle, Georgia, Cambria, 'Times New Roman', Times, serif;
@@ -150,7 +150,7 @@ footer {
   font-weight: 500;
   color: #f15623; }
 
-@media screen and (max-width: 44em) {
+@media screen and (max-width: 45em) {
   .content .selling-points {
     float: none;
     width: 94%; }

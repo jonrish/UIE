@@ -1,5 +1,5 @@
 html {
-	min-width: 448px;
+	min-width: 304px;
 	margin: 0;
 	background-color: #D4DCF7;
 }
@@ -32,7 +32,7 @@ header {
 	.header-content {
 		margin: 0 auto;
 		max-width: 1280px;
-		min-width: 448px;
+		min-width: 304px;
 		img {
 			position: absolute;
 			margin-left: 5%;
@@ -50,7 +50,7 @@ header {
 .main-container {
 	margin: 0 auto;
 	max-width: 1280px;
-	min-width: 448px;
+	min-width: 304px;
 	width: 100%;
 	background-color: white;
 	position: relative;
@@ -88,6 +88,47 @@ header {
 	border-radius: .5em;
 	border: 1px solid #139AD8;
 	box-shadow: 0px 0px 0.5em #139AD8;
+	h2 {
+ 		font-weight: 600;
+	 	text-align: center;
+		padding: .5em .2em;
+	}
+	form {
+		margin: 4%;
+		width: 92%;
+		label {
+			font-size: 1.1em;
+		}
+		input#email {
+			padding: 0 .5em;
+			width: 55%;
+			border: 2px solid #00332c;
+			height: 1.8em;
+		}
+		.checkboxes {
+			font-size: .75em;
+		}
+		#goods-button {
+			text-align: center;
+			color: white;
+			background-image: url('images/dblue054.gif');
+			border: 1px solid #f15623;
+			border-radius: 3px;
+			border: 1px solid #139AD8;
+			box-shadow: 0px 0px 0.5em #139AD8;
+			font-size: 1em;
+			height: 2em;
+			margin: 0 22%;
+			width: 56%;
+			cursor: pointer;
+		}
+	}
+	.promise {
+	 	margin: 4%;
+	 	width: 92%;
+	 	font-size: .75em;
+	 	padding: 0 0 1em 0;
+	}
 }
 
 .experts {
@@ -111,6 +152,16 @@ header {
 			}
 			h2 {
 				margin-bottom: 0;
+				button {
+					text-align: center;
+					color: white;
+					background-image: url('images/dblue054.gif');
+					border: 1px solid #f15623;
+					border-radius: 3px;
+					border: 1px solid #139AD8;
+					box-shadow: 0px 0px 0.5em #139AD8;
+					cursor: pointer;
+				}
 			}
 			img {
 				width: 48%;
@@ -181,7 +232,7 @@ footer {
 	}
 }
 
-@media screen and (max-width: 1064px) {
+@media screen and (max-width: 1080px) {
 	header {
 		height: 7em;
 		.header-content {
@@ -207,7 +258,7 @@ footer {
 	}
 }
 
-@media screen and (max-width: 784px) {
+@media screen and (max-width: 800px) {
 	.selling-points {
 		width: 100%;
 		.sell-headers {
@@ -244,7 +295,18 @@ footer {
 	}
 }
 
-@media screen and (max-width: 664px) {
+@media screen and (max-width: 700px)
+and (orientation: landscape) {
+	header {
+		position: relative;
+	}
+	.main-container {
+		top: 0;
+	}
+
+}
+
+@media screen and (max-width: 680px) {
 	footer {
 		.footer-logo img {
 			float: none;
@@ -254,5 +316,26 @@ footer {
 			float: none;
 			width: 94%;
 		}
+	}
+	header {
+		position: relative;
+	}
+	.main-container {
+		top: 0;
 	}	
 }
+
+@media screen and (max-width: 600px) {
+	.experts {
+		ul {
+			li {
+				height: auto;
+				img, h3, h2 {
+					float: none;
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+
