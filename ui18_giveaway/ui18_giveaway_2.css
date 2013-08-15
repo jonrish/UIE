@@ -51,7 +51,7 @@ header {
   position: relative;
   top: 3.5em;
   padding-top: 1em;
-  color: #0c45d6; }
+  color: #192949; }
 
 .content {
   width: 90%;
@@ -115,7 +115,7 @@ header {
   width: 65%;
   float: left; }
   .experts h1 {
-    color: #380202;
+    color: #aa3933;
     text-align: center; }
   .experts ul {
     list-style: none;
@@ -143,7 +143,7 @@ header {
         width: 48%;
         float: left; }
       .experts ul li h3 {
-        color: #380202;
+        color: #aa3933;
         font-style: italic;
         margin: 0; }
       .experts ul li button {
@@ -196,7 +196,7 @@ footer {
     width: 44%;
     margin: 3%; }
   footer a {
-    color: #380202; }
+    color: #aa3933; }
 
 @media screen and (max-width: 1080px) {
   header {
