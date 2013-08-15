@@ -139,7 +139,6 @@ header {
 	width: 65%;
 	float: left;
 	h1 {
-		color: #aa3933;
 		text-align: center;
 	}
 	ul {
@@ -247,7 +246,6 @@ footer {
 
 // media queries
 
-
 @media screen and (max-width: 1080px) {
 	header {
 		height: 7em;
@@ -255,7 +253,6 @@ footer {
 			img {
 				display: block;
 				margin: 0 auto;
-				// margin-right: auto;
 				position: relative;
 			}
 		}
